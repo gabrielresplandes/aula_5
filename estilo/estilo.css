@@ -1,0 +1,54 @@
+*{
+    margin:0;
+}
+
+header{
+    height: 500px;
+    background-image: url(../imagens/Pizza\ Ofc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;/*ajustar imagem background*/
+    background-position: center;/*ajustar imagem background*/
+}
+nav ul{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color:azure;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+
+h2{
+text-align: center;
+color: chartreuse;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+.card{
+    width: 20%;
+    height: 400px;
+    border: 1px solid black
+}
+#img-card{
+height: 320px;
+
+}
+#texto-card{
+    height: 80px;
+    background-color: blue;
+}
+#titulo-card{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: black;
+}
